@@ -1,0 +1,8 @@
+# Don't upload secrets or virtual environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+*.pdf
+.env
