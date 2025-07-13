@@ -38,39 +38,37 @@ Perfect for data analysts, engineers, and product teams looking to supercharge t
 ```bash
 git clone https://github.com/jugalsheth/querygenie.git
 cd querygenie
+```
 
-2. Set Up Environment
-bash
-Copy
-Edit
+### 2. Set Up Environment
+
+```bash
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
+```
 
-3. Add API Key
-Create a secrets.toml file in the root directory:
+### 3. Add API Key
 
-toml
-Copy
-Edit
+Create a `secrets.toml` file in the project root:
+
+```toml
 OPENAI_API_KEY = "your-openai-api-key-here"
+```
 
-4. Run the App
-bash
-Copy
-Edit
+### 4. Run the App
+
+```bash
 streamlit run querygenie_app.py
+```
 
-📂 Project Structure
-bash
-Copy
-Edit
+#### Project Structure
+
+```
 querygenie/
 ├── querygenie_app.py        # Main Streamlit App
 ├── requirements.txt         # Python dependencies
 ├── secrets.toml             # API keys (not committed)
-├── .gitignore
-└── assets/
-    └── screenshot.png       # App preview image
-
+└── .gitignore
+```
 
